@@ -410,7 +410,7 @@ const gameControl = (function(count, ui) {
             cleanUp[i].remove();
             let imageCreation = document.getElementById('image_1');
             let title = document.getElementById('topWords')
-            title.textContent = 'Make Water';
+            title.textContent = 'Make Water!';
             imageCreation.src = '';
         }
         for (i = 0; i < createdElements.length; i++) {
